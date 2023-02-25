@@ -144,6 +144,7 @@ button, a, input {
   display: flex;
   gap: 0.2rem;
   margin-top: 0.2rem;  
+  margin-left: 3rem;
 }
 
 #search-input-container > input,
@@ -370,7 +371,7 @@ button, a, input {
 .social-buttons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: right;
+  justify-content: center;
   gap: 10px;
 
 }
@@ -442,24 +443,36 @@ button, a, input {
 }
 .social-button--facebook {
   color: #3b5999;
+  padding: 0;
+  margin: 0 5px;
+  font-size: 24px;
 }
 .social-button--facebook::after {
   background: #3b5999;
 }
 .social-button--linkedin {
   color: #0077b5;
+  padding: 0;
+  margin: 0 5px;
+  font-size: 24px;
 }
 .social-button--linkedin::after {
   background: #0077b5;
 }
 .social-button--github {
   color: #6e5494;
+  padding: 0;
+  margin: 0 5px;
+  font-size: 24px;
 }
 .social-button--github::after {
   background: #6e5494;
 }
 .social-button--codepen {
   color: #212121;
+  padding: 0;
+  margin: 0 5px;
+  font-size: 24px;
 }
 .social-button--codepen::after {
   background: #212121;
@@ -1059,12 +1072,14 @@ text-align: center;
   line-height: 1;
   margin-top: 1px;
   position: center;
+  size: 5px;
 }
 
 .searchContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  text-align: center;
 }
 .box {
   width: 45%;
